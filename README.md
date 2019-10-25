@@ -27,12 +27,27 @@ ecanspy3是一个类似于VehicleSpy3的一款应用软件，主要功能是进�
 + 可以显示的最新报文数目为35万条
 + 接收显示的数据量即使非常大(35万条)，可以做到滑动自如，不卡屏
 
-## 软件截图
+## 软件快照
 
 1. 白色主题
 
+滚动模式
+
+![white-theme-scrolll]("./docs/white-theme-update.png" "白色主题滚动模式运行效果")
+
+更新模式
+
+![white-theme-update]("./docs/white-theme-update.png" "白色主题更新模式运行效果")
+
 2. 黑色主题
 
+滚动模式
+
+![white-theme-scrolll]("./docs/white-theme-update.png" "黑色主题滚动模式运行效果")
+
+更新模式
+
+![white-theme-update]("./docs/white-theme-update.png" "黑色主题更新模式运行效果")
 
 ## 使用指导
 
@@ -47,18 +62,45 @@ ecanspy3是一个类似于VehicleSpy3的一款应用软件，主要功能是进�
 1. 点击工具按钮关闭CAN设备，只有在CAN设备关闭的情况下，才可以进行后续操作(解释下为什么使CAN设备默认开启，因为此程序带有项目保存功能，当下次启动的适合
 ，会自动加载上次的项目, 所以就不需要再次进行配置了，直接使用就行了)，如下图所示：
 
+![usage-step1]("./docs/usage-step1.png" "关闭CAN设备")
+
 2. 加载DBC文件（这个是信号编码和解码的前提，并且发送操作也是依赖这一步骤）, 入下图所示：
+
+首先，点击加载DBC按钮
+
+![usage-step21]("./docs/usage-step21.png" "点击加载dbc按钮")
+
+然后，选择要加载的DBC文件, 点击打开
+
+![usage-step22]("./docs/usage-step22.png" "选择DBC文件，点击打开")
 
 3. 选中要发送的报文，然后右键弹出菜单，选择copy to transmit，入下图所示：
 
+![usage-step31]("./docs/usage-step31.png" "添加发送报文")
+
 当执行第三步后，会在整个窗口的发送面板中加载所选择的发送报文信息，并且发送面板中的信号窗体中会自动显示当前报文的所有信号
+
+[!usage-step32]("./docs/usage-step32.png" "显示所有要发送的报文")
 
 4. 启动CAN设备, 如下图所示：
 
+[!usage-step4]("./docs/usage-step4.png" "启动CAN设备")
+
 5. 如果想发送哪个报文，值需要将对应报文的CheckBox选中，即可
+[!usage-step5]("./docs/usage-step5.png" "发送报文")
 
 6. 如果想改变哪个信号的值，只需要点击发送面板中，信号窗口中的对应信号的相关单元格（附加说明：+，-按钮，物理值单元个和原始值单元值，都可以改变信号的值，并且对于有物理含义
 的信号，可以直接在物理信号单元格中输入你想输入的物理值，内部有算法找到一个最接近的值）
+
+点击+/-按钮修改信号值
+
+[!usage-step61]("./docs/usage-step61.png" "点击+/-按钮修改信号值")
+
+点击物理值单元格来信号值
+
+[!usage-step62]("./docs/usage-step62.png" "直接输入物理值来改变信号值")
+
+[!usage-step63]("./docs/usage-step63.png" "直接选中物理值状态来改变信号值")
 
 ## 项目结构介绍
 
