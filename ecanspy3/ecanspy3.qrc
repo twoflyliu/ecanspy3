@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/about.png</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/exit.png</file>
+        <file>images/new.png</file>
+        <file>images/next.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/previous.png</file>
+        <file>images/redo.png</file>
+        <file>images/save.png</file>
+        <file>images/saveAs.png</file>
+        <file>images/undo.png</file>
+        <file>images/settings.png</file>
+        <file>images/start.png</file>
+        <file>images/stop.png</file>
+        <file>images/theme.png</file>
+        <file>themes/dracula.qss</file>
+        <file>themes/black_snapshot.png</file>
+        <file>themes/white_snapshot.PNG</file>
+        <file>images/ECanSpy3.png</file>
+        <file>images/reset.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ECanSpy3</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件（&amp;F）</string>
+    </property>
+    <addaction name="newAction"/>
+    <addaction name="openAction"/>
+    <addaction name="separator"/>
+    <addaction name="saveAction"/>
+    <addaction name="saveAsAction"/>
+    <addaction name="separator"/>
+    <addaction name="exitAction"/>
+   </widget>
+   <widget class="QMenu" name="menu_D">
+    <property name="title">
+     <string>设备（D）</string>
+    </property>
+    <addaction name="configCanAction"/>
+    <addaction name="openCanAction"/>
+    <addaction name="closeCanAction"/>
+   </widget>
+   <widget class="QMenu" name="menu_H">
+    <property name="title">
+     <string>帮助（H）</string>
+    </property>
+    <addaction name="aboutAction"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>选项（O）</string>
+    </property>
+    <addaction name="themeSettingAction"/>
+    <addaction name="separator"/>
+    <addaction name="resetAllLayoutAction"/>
+    <addaction name="separator"/>
+    <addaction name="triggerMsgOptionAction"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_D"/>
+   <addaction name="menu"/>
+   <addaction name="menu_H"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="openAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/open.png</normaloff>:/images/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开（O）</string>
+   </property>
+  </action>
+  <action name="newAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/new.png</normaloff>:/images/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建（N）</string>
+   </property>
+  </action>
+  <action name="saveAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/save.png</normaloff>:/images/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存（S）</string>
+   </property>
+  </action>
+  <action name="saveAsAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/saveAs.png</normaloff>:/images/saveAs.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为（A）</string>
+   </property>
+  </action>
+  <action name="exitAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/exit.png</normaloff>:/images/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出（X）</string>
+   </property>
+  </action>
+  <action name="openCanAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/start.png</normaloff>:/images/start.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开CAN</string>
+   </property>
+  </action>
+  <action name="closeCanAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/stop.png</normaloff>:/images/stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>关闭CAN</string>
+   </property>
+  </action>
+  <action name="configCanAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/settings.png</normaloff>:/images/settings.png</iconset>
+   </property>
+   <property name="text">
+    <string>配置CAN...</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/about.png</normaloff>:/images/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于ECanSpy3...</string>
+   </property>
+  </action>
+  <action name="themeSettingAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/theme.png</normaloff>:/images/theme.png</iconset>
+   </property>
+   <property name="text">
+    <string>主题设置</string>
+   </property>
+  </action>
+  <action name="resetAllLayoutAction">
+   <property name="icon">
+    <iconset resource="ecanspy3.qrc">
+     <normaloff>:/images/reset.png</normaloff>:/images/reset.png</iconset>
+   </property>
+   <property name="text">
+    <string>重置窗口布局</string>
+   </property>
+  </action>
+  <action name="triggerMsgOptionAction">
+   <property name="text">
+    <string>触发报文选项</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ecanspy3.qrc"/>
+ </resources>
+ <connections/>
+</ui>
