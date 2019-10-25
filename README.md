@@ -49,6 +49,11 @@ ecanspy3是一个类似于VehicleSpy3的一款应用软件，主要功能是进�
 
 ![white-theme-update](./docs/black-theme-update.png "黑色主题更新模式运行效果")
 
+## 下载
+
+[download](./dist/v1.0.zip "V1.0版本下载链接")
+
+
 ## 使用指导
 
 ### 前置步骤
