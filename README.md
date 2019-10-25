@@ -33,7 +33,7 @@ ecanspy3是一个类似于VehicleSpy3的一款应用软件，主要功能是进�
 
 滚动模式
 
-![white-theme-scrolll](./docs/white-theme-update.png "白色主题滚动模式运行效果")
+![white-theme-scrolll](./docs/white-theme-scroll.png "白色主题滚动模式运行效果")
 
 更新模式
 
@@ -43,11 +43,11 @@ ecanspy3是一个类似于VehicleSpy3的一款应用软件，主要功能是进�
 
 滚动模式
 
-![white-theme-scrolll](./docs/white-theme-update.png "黑色主题滚动模式运行效果")
+![white-theme-scrolll](./docs/black-theme-scroll.png "黑色主题滚动模式运行效果")
 
 更新模式
 
-![white-theme-update](./docs/white-theme-update.png "黑色主题更新模式运行效果")
+![white-theme-update](./docs/black-theme-update.png "黑色主题更新模式运行效果")
 
 ## 使用指导
 
