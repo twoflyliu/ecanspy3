@@ -28,9 +28,8 @@ int main(int argc, char *argv[])
     DBCParser parser;
     DocumentBuilder builder;
 
-    //const QString dbcFile = QObject::tr("F:/bdstar/项目/FE-4KB/5.CAN/B.通信矩阵/FE_4KB-20190124.dbc");
-    //const QString dbcFile = QObject::tr("F:/projects/cpp_projects/HostComputerProjects/CommonTool/com_code_gen/dbc/FE-3ZA_IHU.dbc");
-    const QString dbcFile = QObject::tr("F:/bdstar/项目/T500/ICU/5.CAN/B.通信矩阵/A12国六 TNN4G15T 6AT MsgList_V1.1_ICU_20180621.dbc");
+    // 移除之前具体的dbc文件，防止文件名信息泄漏
+    const QString dbcFile = QObject::tr("xxxxx.dbc");
 
     if (parser.parse(dbcFile, builder)) {
         Document *doc = builder.getDocument();
